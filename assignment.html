@@ -1,9 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+</head>
+
+<body>
+    <div id="form">
+        <form action="submit.php">
+            <h1>Register</h1><br>
+            <label for="f.name">First Name :</label>
+            <input type="text" name="f.name" placeholder="Eren" />
+            <label for="l.name">Last Name :</label>
+            <input type="text" name="l.name" placeholder="Dogan" /><br>
+            <label for="male">Male</label>
+            <input type="radio" name="male" />
+            <label for="female">Female</label>
+            <input type="radio" name="female" />
+            <label for="Other">Other</label>
+            <input type="radio" name="Other" /><br>
+            <label for="Email">E-Mail :</label>
+            <input type="email" name="email" placeholder="your email" />
+            <label for="pwd">Password :</label>
+            <input type="password" name="pwd" placeholder="your password" /><br>
+            <label for="b.day">Birthday :</label>
+            <label for="day">Day:</label>
+            <select id="day" name="day" size="1">
+            </select>
+            <label for="month">Month:</label>
+            <select id="month" name="month">
+            </select>
+            <label for="year">Year:</label>
+            <select id="year" name="year">
+            </select><br>
+            <label for="terms">I agree to the terms and conditions</label>   
+            <input type="checkbox"><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
 </html>
