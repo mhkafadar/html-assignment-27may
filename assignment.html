@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <title>Creating a form / assignment-27may</title>
     </head>
     <body>
-        
+        <!-- Form -->
+        <h1>Register</h1>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div>
+                        <label for="fname">First name</label>
+                        <input type="text" placeholder="Loai" id="fname" name="fname">
+                        <label for="lname">Last Name</label>
+                        <input type="text" placeholder="Last name" id="lname" name="lname">
+                    </div>
+
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" value="">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender" id="female" value="">
+                        <label for="other">Other</label>
+                        <input type="radio" name="other" id="other" value="">
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Your email" id="email" name="email">
+
+                        <label for="password">Password</label>
+                        <input type="password" placeholder="Yor Password" id="password" name="password">
+                    </div>
+
+                    <div>
+                        <label for="Birthday">Birthday</label>
+                        <input type="date" id="Birthday" name="Birthday">
+                    </div>
+
+                    <div>
+                        <label for="agreement">I agree to the terms and conditions</label>
+                        <input type="checkbox" id="agreement" name="agreement">
+                    </div>
+
+                </fieldset>
+                
+                <div>
+                    <input type="submit" value="Submit Form">
+                </div>
+
+            </form>
+        </div>
+
     </body>
 </html>
