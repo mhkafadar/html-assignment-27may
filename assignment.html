@@ -1,9 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>May 27 Aassignment</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form id="register">
+        <div>
+            <label for="f-name">First Name</label>
+            <input id="f-name" type="text" name="f-name" placeholder="Ammar">
+            <label for="l-name">Last Name</label>
+            <input id="l-name" type="text" name="l-name" placeholder="Sammour">
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="your email">
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" placeholder="your password">
+        </div>
+        <div>
+            <label for="birthday">Birthday</label>
+            <select name="month" id="birthday">
+                    <option value="month">Month</option>
+                </select>
+            <select name="day" id="birthday">
+                    <option value="day">Day</option>
+                </select>
+            <select name="day" id="birthday">
+                    <option value="day">Day</option>
+                </select>
+        </div>
+        <div>
+            <label for="agreement">I agree to the terms and conditions</label>
+            <input type="checkbox" name="agreement" id="agreement">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
 </html>
